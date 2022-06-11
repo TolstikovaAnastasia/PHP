@@ -15,7 +15,7 @@
 
     <?php foreach ($tasks as $task) : ?>
         <div>
-            <?= $task->getDescription() ?> <a href="/?controller=taska&action=taskIsDone&id=<?= $task->getId() ?>">[Done]</a>
+            <?= $task->getDescription() ?> <a href="/?controller=tasks&action=taskIsDone&id=<?= $task->getId() ?>">[Done]</a>
         </div>
     <?php endforeach; ?>
 
